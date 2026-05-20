@@ -63,7 +63,7 @@ ping -c 1 -p 434f4e464944454e4349414c 192.168.58.131
 
 ## 5. Network Forensics Analysis
 
-The traffic was captured and stored in the `caso01_icmp_exfil.pcapng` file (available in the `/evidencias` folder of this repository). The comparative analysis yielded the following critical findings:
+The traffic was captured and stored in the `case01_icmp_exfil.pcapng` file (available in the `/data` folder of this repository). The comparative analysis yielded the following critical findings:
 
 ### 5.1. Volumetric Evasion
 At first glance, the anomalous packet maintains the standard length of a Linux *Echo Request* (**98 bytes on wire / 74 bytes packet length**). This means that alerts based on volume anomalies or packet size thresholds would not have been triggered.
