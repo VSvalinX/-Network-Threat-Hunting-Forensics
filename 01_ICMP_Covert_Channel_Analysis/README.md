@@ -90,7 +90,7 @@ The following screenshot shows how the Hex/ASCII dump of the altered packet reve
 To automate the detection of this attack vector in a Security Operations Center (SOC), the following rule was developed for Network-based Intrusion Detection Systems (NIDS) such as Snort or Suricata.
 
 ```snort
-alert icmp $HOME_NET any -> $EXTERNAL_NET any (msg:"SOC_ALERT - Possible ICMP Tunneling / Data Exfiltration (MITRE T1048.003)"; itype:8; content:"CONFIDENTIAL"; classtype:policy-violation; sid:1000001; rev:1;)
+alert icmp $HOME_NET any -> $EXTERNAL_NET any (msg:"SOC_ALERT - Possible ICMP Tunneling / Data Exfiltration (MITRE T1048.003)"; itype:8; content:"CONFIDENCIAL"; classtype:policy-violation; sid:1000001; rev:1;)
 ```
 
 **Technical justification for the rule:**
