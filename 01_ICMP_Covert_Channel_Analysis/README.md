@@ -42,7 +42,7 @@ The environment was deployed using virtualization with strict network segmentati
 
 | Role | Operating System | Simulated IP Address | Tools Used |
 | :--- | :--- | :--- | :--- |
-| **Attacker / Sensor** | Kali Linux 2024.1 | `192.168.58.131` | Wireshark, tcpdump |
+| **Attacker / Sensor** | Kali Linux 2026.1 | `192.168.58.131` | Wireshark, tcpdump |
 | **Victim Endpoint** | Ubuntu Server 24.04 LTS | `192.168.58.135` | `ping` (Native binary) |
 | **Network Segment** | VMware Virtual Switch (VMnet8)| `192.168.58.0/24` | Wireshark Promiscuous Mode Enabled |
 
