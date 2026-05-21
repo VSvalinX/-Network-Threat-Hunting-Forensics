@@ -16,7 +16,7 @@ The primary goal of these projects is to demonstrate my ability to analyze raw n
 * **Description:** Simulation and forensic analysis of a data exfiltration attack using the ICMP protocol to bypass L3/L4 perimeter firewalls. Showcases baseline establishment, payload inspection, and custom IDS rule creation.
 * **MITRE ATT&CK:** `T1048.003` (Exfiltration Over Unencrypted Non-C2 Protocol).
 
-### 📡 [Case 02: DNS Tunneling Exfiltration Analysis](./02_DNS_Tunneling_Exfiltration/README.md)
+### 📡 [Case 02: DNS Tunneling Exfiltration Analysis](./02_DNS_Tunneling_Exfiltration_Analysis/README.md)
 * **Description:** Investigation of malicious DNS queries used to exfiltrate encoded data to a simulated Command & Control (C2) server, exploiting the standard port 53 UDP.
 * **MITRE ATT&CK:** `T1071.004` (Application Layer Protocol: DNS).
 
