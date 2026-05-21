@@ -59,6 +59,7 @@ To emulate an APT, a custom Bash script (`exfil.sh`) was deployed on the comprom
 4.  **Rate Limiting:** A `sleep 1` command is injected to intentionally slow down the exfiltration, avoiding volume-based SIEM alerts.
 
 ![Bash Exfiltration Script](Images/01_script_exfil.jpg)
+
 *(Figure 1: Custom LotL Bash script demonstrating payload fragmentation and exfiltration)*
 
 ---
@@ -80,6 +81,7 @@ By inspecting the `Info` column in Wireshark, the fragmented Base64 strings are 
 To determine the extent of the breach, the analyst extracted the anomalous subdomains, concatenated the Base64 strings, and decoded them. The decoding process successfully exposed the simulated password hashes, proving the total compromise of the credential file.
 
 ![Base64 Decoding and IoC Extraction](Images/03_base64_decode.jpg)
+
 *(Figure 3: Forensic reconstruction and decoding of the stolen data in the analyst's terminal)*
 
 ---
